@@ -1,7 +1,7 @@
 name = "navsphere"
 compatibility_date = "2026-4-22"
 compatibility_flags = ["nodejs_compat"]
-pages_build_output_dir = ".vercel/output/static"
+pages_build_output_dir = ".next"
 
 [env.production.vars]
 GITHUB_CLIENT_ID = "Ov23li4fHCyXVo6SpZNQ"
