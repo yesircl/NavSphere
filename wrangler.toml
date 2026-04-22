@@ -5,11 +5,8 @@ pages_build_output_dir = ".vercel/output/static"
 
 [env.production.vars]
 GITHUB_CLIENT_ID = "Ov23li4fHCyXVo6SpZNQ"
-GITHUB_CLIENT_SECRET = "94784cc1b3e50bd427e6e1acf0e188ad140af2b0"
 GITHUB_OWNER = "yesircl"
 GITHUB_REPO = "navsphere-data"
 GITHUB_BRANCH = "main"
-NEXTAUTH_URL = "https://nav.230604.xyz"
+NEXTAUTH_URL = "https://nav.230604.xyz/api/auth"
 NEXT_PUBLIC_API_URL="https://nav.230604.xyz"
-AUTH_SECRET = "yn5252101"
-GITHUB_PAT = "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"
