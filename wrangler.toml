@@ -1,13 +1,15 @@
 name = "navsphere"
 compatibility_date = "2024-11-11"
 compatibility_flags = ["nodejs_compat"]
-pages_build_output_dir = ".vercel/output/static"
+pages_build_output_dir = ".next"
 
 [env.production.vars]
-GITHUB_CLIENT_ID = "Ov23lig3bTXpZHrPO1c8"
-GITHUB_OWNER = "tianyaxiang"
-GITHUB_REPO = "NavSphere"
+GITHUB_CLIENT_ID = "Ov23li4fHCyXVo6SpZNQ"
+GITHUB_CLIENT_SECRET = "94784cc1b3e50bd427e6e1acf0e188ad140af2b0"
+GITHUB_OWNER = "yesircl"
+GITHUB_REPO = "navsphere-data"
 GITHUB_BRANCH = "main"
-NEXTAUTH_URL = "https://nav.newkit.site/api/auth"
-NEXT_PUBLIC_API_URL="https://nav.newkit.site"
-
+NEXTAUTH_URL = "https://nav.230604.xyz"
+NEXT_PUBLIC_API_URL="https://nav.230604.xyz"
+AUTH_SECRET = "yn5252101"
+GITHUB_PAT = "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"
